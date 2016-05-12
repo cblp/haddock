@@ -79,9 +79,8 @@ cabal test
 
 ```bash
 stack init
-stack install
 # run the test suite
-export HADDOCK_PATH="$HOME/.local/bin/haddock"
+export HADDOCK_PATH="$(stack path --local-install-root)/bin/haddock"
 stack test
 ```
 

@@ -20,3 +20,4 @@ TAGS
 
 .cabal-sandbox
 cabal.sandbox.config
+.stack-work/
